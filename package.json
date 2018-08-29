@@ -18,11 +18,12 @@
 		"gulp-uglify": "*",
 		"gulp-util": "*",
 		"gulp-zip": "*",
-		"run-sequence": "*"
+		"run-sequence": "*",
+		"typed.js": "^2.0.9"
 	},
 	"devDependencies": {},
 	"scripts": {
-    "start": "gulp",
+		"start": "gulp",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {

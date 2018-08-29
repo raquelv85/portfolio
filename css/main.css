@@ -1,6 +1,201 @@
-body {
-  background: url("../images/logo-adalab-80px.png") center center no-repeat #fff;
+.header {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: black;
+  font-family: 'Megrim', cursive;
+  height: 65px;
+  z-index: 10;
+}
+
+.nav {
+  width: 100%;
+}
+
+.menu {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+.item {
+  padding: 4px 20px;
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+
+.link-section {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.item--check {
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  background-color: #F2015F;
+}
+
+.words {
+  display: block;
+}
+
+.icon-menu {
+  display: none;
+}/* Yaku */.link {
+  outline: none;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.link--yaku {
+  font-weight: 400;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.link--yaku span {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+  transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);
+  -webkit-transition: -webkit-transform 0.5s, color 0.5s;
+  -webkit-transition: color 0.5s, -webkit-transform 0.5s;
+  transition: color 0.5s, -webkit-transform 0.5s;
+  transition: transform 0.5s, color 0.5s;
+  transition: transform 0.5s, color 0.5s, -webkit-transform 0.5s;
+}
+
+.link--yaku:hover span {
+  color: white;
+  -webkit-transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+  transform: perspective(1000px) rotate3d(0, 1, 0, 360deg);
+}
+
+.link--yaku span:nth-child(4),.link--yaku:hover span:first-child {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.link--yaku span:nth-child(3),.link--yaku:hover span:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+.link--yaku span:nth-child(2),.link--yaku:hover span:nth-child(3) {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.link--yaku span:first-child,.link--yaku:hover span:nth-child(4) {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.container--sect1,.container--sect2,.container--sect3,.container--form {
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  width: 100%;
   height: 100vh;
+}
+
+.name--index {
+  font-family: 'Podkova', serif;
+  color: #f2015f;
+  position: absolute;
+}
+
+.container--sect2 {
+  background-color: black;
+}
+
+.container--sect3 {
+  background-color: black;
+}
+
+.container--form {
+  background-color: white;
+}
+
+#typed {
+  width: 10px;
+  white-space: pre;
+  padding-top: 50px;
+  display: inline-block;
+  color: #F2015F;
+  font-family: 'Podkova', serif;
+  position: absolute;
+}
+
+#typedtext {
+  margin-top: 50px;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#particles-js {
+  background: black;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+@media all and (min-width: 768px) {
+  .link-section {
+    font-size: 17px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .header {
+    height: 58px;
+  }
+
+  .link-section {
+    font-size: 19px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .words {
+    display: none;
+  }
+
+  .icon-menu {
+    display: block;
+    margin-top: 44%;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .icon-menu {
+    font-size: 22px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
