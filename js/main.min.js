@@ -44,7 +44,7 @@ window.addEventListener('scroll', function(e){
         console.log("i",i)
         if(links[j].getAttribute('data-section') === i){
 
-          console.log("seccion",links[j].getAttribute('data-section'))
+          console.log(links[j].parentElement.classList.add('item--check'))
         }
       }
       
