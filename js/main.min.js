@@ -42,10 +42,13 @@ window.addEventListener('scroll', function(e){
       for(let j=0; j<links.length; j++){
         console.log("atribute",typeof(links[j].getAttribute('data-section')))
         console.log("i",i)
+        links[j].parentElement.classList.remove('item--check');
         if(links[j].getAttribute('data-section') === i){
-
-          console.log(links[j].parentElement.classList.add('item--check'))
+          
+          links[j].parentElement.classList.add('item--check');
         }
+
+        
       }
       
     }
