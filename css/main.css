@@ -329,8 +329,12 @@ body {
 }
 
 @media all and (max-width: 425px) {
+  .header {
+    height: 40px;
+  }
+
   .icon-menu {
-    font-size: 22px;
+    font-size: 14px;
   }
 }
 
