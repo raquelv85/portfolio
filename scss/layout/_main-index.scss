@@ -131,6 +131,17 @@
   }
 }
 
+@media all and (max-width: 425px){
+
+  .container--img{
+    width: 35%;
+    padding-top: 0px;
+  }
+  .text--profile{
+    font-size: 13px;
+  }
+}
+
 /*seccion skills*/
 
 .container--sect3{
