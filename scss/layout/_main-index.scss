@@ -39,13 +39,14 @@
 
 
 .contact--index{
-  font-family: 'Podkova', serif;
+  font-size: 37px;
+  font-family: 'Megrim', cursive;
   color: #f2015f;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
-  padding-top: 80px;
-  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 90px;
 }
 .container--contact-icons{
   width: 80%;
@@ -82,6 +83,16 @@
 
 
 /*seccion perfil*/
+
+.profile--index{
+  font-size: 37px;
+  font-family: 'Megrim', cursive;
+  color: #f2015f;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  padding-top: 20px;
+}
 
 .container--img{
   width: 60%;
@@ -122,13 +133,47 @@
 
 /*seccion skills*/
 
-.container--text-skills{
-  padding-top: 50px;
+.container--sect3{
+  padding-top: 20px;
 }
 
-.title-skills{
-  color: #f2015f;
+.container--title-skills{
+  margin-bottom: 30px;
+}
+
+
+.skills--index{
+  font-size: 30px;
   font-family: 'Megrim', cursive;
+  color: #f2015f;
   text-align: center;
-  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  margin:0;
+}
+
+.subtitle-skills {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.text--skills {
+  color: #f2015f;
+  font-family: 'Hind', sans-serif;
+  margin: 2px;
+}
+
+.container--links-skills{
+   
+    margin: auto;
+   
+}
+
+
+.link--skills{
+  text-decoration: none;
+    color: white;
+    font-family: 'Hind', sans-serif;
+      display: block;
+    text-align: center;
 }
