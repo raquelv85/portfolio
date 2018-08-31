@@ -79,7 +79,7 @@ function showDiv(e){
       titleSection3.classList.remove('show')
     }
 
-    if(scrollPosition >= 2400){
+    if(scrollPosition >= 2300){
       titleSection4.classList.add('show')
     }else if(scrollPosition === 0){
       titleSection4.classList.remove('show')
