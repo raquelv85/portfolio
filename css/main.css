@@ -128,8 +128,12 @@
   position: absolute;
 }
 
-.container--sect2,.container--sect3,.container--sect4 {
+.section {
   background-color: black;
+}
+
+.container--sect2 {
+  opacity: 0;
 }
 
 .profile--index {
@@ -141,6 +145,12 @@
   letter-spacing: 7px;
   padding-top: 50px;
   margin-top: 0;
+}
+
+.show {
+  opacity: 1;
+  -webkit-transition: all linear 0.8s;
+  transition: all linear 0.8s;
 }
 
 .container--img {
@@ -173,6 +183,16 @@
   color: #F2015F;
   text-align: justify;
   font-family: 'Hind', sans-serif;
+}
+
+.container--sect3 {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+  -webkit-transition: all linear 0.8s;
+  transition: all linear 0.8s;
 }
 
 .container--title-skills {

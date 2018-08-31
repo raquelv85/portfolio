@@ -1,3 +1,11 @@
+.container--sect3{
+  opacity: 0;
+}
+
+.show{
+  opacity: 1;
+  transition: all linear 0.8s;
+}
 .container--title-skills {
   margin-bottom: 50px;
 }
