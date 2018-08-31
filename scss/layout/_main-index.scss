@@ -151,12 +151,12 @@
 }
 
 .container--title-skills{
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 
 .skills--index{
-  font-size: 30px;
+  font-size: 37px;
   font-family: 'Megrim', cursive;
   color: #f2015f;
   text-align: center;
@@ -167,22 +167,32 @@
 
 .subtitle-skills {
   text-align: center;
-  text-decoration-line: underline;
 }
 
 .text--skills {
   color: #f2015f;
   font-family: 'Hind', sans-serif;
   margin: 2px;
+  text-transform: uppercase;
 }
 
 .container--links-skills{
    
     margin: auto;
+    width: 80%;
+    border: 1px solid #f2015f;
+    margin-bottom: 35px;
+    padding: 10px;
    
 }
 
-
+.title--link-skills{
+  color: white;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+}
 .link--skills{
   text-decoration: none;
     color: white;
