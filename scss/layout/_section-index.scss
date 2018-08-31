@@ -1,7 +1,7 @@
 .profile--index{
   font-size: 37px;
   font-family: 'Megrim', cursive;
-  color: #f2015f;
+  color: $color1;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -18,7 +18,7 @@
 .img--profile{
   width: 100%;
   border-radius: 16px;
-  border: 2px solid #f2015f;
+  border: 2px solid $color1;
   filter: grayscale(100%);
   transition: all 0.4s linear;
 }
@@ -32,7 +32,7 @@
   margin: auto;
 }
 .text--profile{
-  color: #f2015f;
+  color: $color1;
   text-align: justify;
   font-family: 'Hind', sans-serif;
 }

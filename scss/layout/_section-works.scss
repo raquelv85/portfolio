@@ -5,7 +5,7 @@
 .skills--index {
   font-size: 37px;
   font-family: 'Megrim', cursive;
-  color: #f2015f;
+  color: $color1;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -17,7 +17,7 @@
 }
 
 .text--skills {
-  color: #f2015f;
+  color: $color1;
   font-family: 'Hind', sans-serif;
   margin: 2px;
   text-transform: uppercase;
@@ -26,10 +26,17 @@
 .container--links-skills {
   margin: auto;
   width: 80%;
-  border: 1px solid #f2015f;
+  border: 1px solid $color1;
   margin-bottom: 35px;
   padding: 10px;
+  position: relative;
+  transition: all linear 0.5s;
 }
+
+.container--links-skills:hover{
+  background-color: #3D0018;
+} 
+
 
 .title--link-skills {
   color: white;

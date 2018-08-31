@@ -124,7 +124,7 @@
 
 .name--index {
   font-family: 'Podkova', serif;
-  color: #f2015f;
+  color: #F2015F;
   position: absolute;
 }
 
@@ -135,7 +135,7 @@
 .profile--index {
   font-size: 37px;
   font-family: 'Megrim', cursive;
-  color: #f2015f;
+  color: #F2015F;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -152,7 +152,7 @@
 .img--profile {
   width: 100%;
   border-radius: 16px;
-  border: 2px solid #f2015f;
+  border: 2px solid #F2015F;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   -webkit-transition: all 0.4s linear;
@@ -170,7 +170,7 @@
 }
 
 .text--profile {
-  color: #f2015f;
+  color: #F2015F;
   text-align: justify;
   font-family: 'Hind', sans-serif;
 }
@@ -182,7 +182,7 @@
 .skills--index {
   font-size: 37px;
   font-family: 'Megrim', cursive;
-  color: #f2015f;
+  color: #F2015F;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -194,7 +194,7 @@
 }
 
 .text--skills {
-  color: #f2015f;
+  color: #F2015F;
   font-family: 'Hind', sans-serif;
   margin: 2px;
   text-transform: uppercase;
@@ -203,9 +203,16 @@
 .container--links-skills {
   margin: auto;
   width: 80%;
-  border: 1px solid #f2015f;
+  border: 1px solid #F2015F;
   margin-bottom: 35px;
   padding: 10px;
+  position: relative;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.container--links-skills:hover {
+  background-color: #3D0018;
 }
 
 .title--link-skills {
@@ -227,7 +234,7 @@
 .contact--index {
   font-size: 37px;
   font-family: 'Megrim', cursive;
-  color: #f2015f;
+  color: #F2015F;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -255,12 +262,12 @@
 }
 
 .icon-contact {
-  color: #f2015f;
+  color: #F2015F;
 }
 
 .contact-email {
   font-family: 'Hind', sans-serif;
-  color: #f2015f;
+  color: #F2015F;
   text-align: center;
 }
 
@@ -278,7 +285,7 @@
 
 .icon-network {
   font-size: 30px;
-  color: #f2015f;
+  color: #F2015F;
 }
 
 body {

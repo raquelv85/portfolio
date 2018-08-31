@@ -1,7 +1,7 @@
 .contact--index {
   font-size: 37px;
   font-family: 'Megrim', cursive;
-  color: #f2015f;
+  color: $color1;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -24,12 +24,12 @@
 }
 
 .icon-contact {
-  color: #f2015f;
+  color: $color1;
 }
 
 .contact-email {
   font-family: 'Hind', sans-serif;
-  color: #f2015f;
+  color: $color1;
   text-align: center;
 }
 
@@ -42,5 +42,5 @@
 
 .icon-network {
   font-size: 30px;
-  color: #f2015f;
+  color: $color1;
 }
