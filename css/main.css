@@ -119,6 +119,7 @@
 
 .container--sect3 {
   height: 100%;
+  padding-top: 50px;
 }
 
 .name--index {
@@ -131,20 +132,6 @@
   background-color: black;
 }
 
-#typed {
-  width: 10px;
-  white-space: pre;
-  padding-top: 50px;
-  display: inline-block;
-  color: #F2015F;
-  font-family: 'Podkova', serif;
-  position: absolute;
-}
-
-#typedtext {
-  margin-top: 50px;
-}
-
 .contact--index {
   font-size: 37px;
   font-family: 'Megrim', cursive;
@@ -152,7 +139,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 90px;
   margin-top: 0;
 }
@@ -207,7 +194,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 7px;
-  padding-top: 20px;
+  padding-top: 50px;
   margin-top: 0;
 }
 
@@ -241,11 +228,7 @@
   color: #f2015f;
   text-align: justify;
   font-family: 'Hind', sans-serif;
-}/*seccion skills*/.container--sect3 {
-  padding-top: 20px;
-}
-
-.container--title-skills {
+}/*seccion skills*/.container--title-skills {
   margin-bottom: 50px;
 }
 
