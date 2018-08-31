@@ -27,13 +27,13 @@ for(let i = 0; i < sections.length; i++){
     console.dir(sections[i])
     objSections[sections[i].id] = sections[i].offsetTop;
     //objSections[i].position = sections[i].offsetTop;
-    //console.log(objSections)    
+    console.log(objSections)    
 }
 
 
 window.addEventListener('scroll', function(e){
  
-  let  scrollPosition = document.documentElement.scrollTop;
+  let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
  
 
   for(let i in objSections){
