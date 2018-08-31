@@ -42,6 +42,7 @@ window.addEventListener('scroll', function (e) {
 
 
 function scrollSpy(e){
+  alert(window.innerHeight);
 
   e.preventDefault();
   let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
