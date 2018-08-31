@@ -132,62 +132,7 @@
   background-color: black;
 }
 
-.contact--index {
-  font-size: 37px;
-  font-family: 'Megrim', cursive;
-  color: #f2015f;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 7px;
-  padding-top: 50px;
-  padding-bottom: 90px;
-  margin-top: 0;
-}
-
-.container--contact-icons {
-  width: 80%;
-  margin: auto;
-}
-
-.container--tlf {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 50%;
-  margin: auto;
-}
-
-.icon-contact {
-  color: #f2015f;
-}
-
-.contact-date {
-  font-family: 'Hind', sans-serif;
-  color: #f2015f;
-  text-align: center;
-}
-
-.container--links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 60px 0 10px;
-}
-
-.icon-network {
-  font-size: 30px;
-  color: #f2015f;
-}/*seccion perfil*/.profile--index {
+.profile--index {
   font-size: 37px;
   font-family: 'Megrim', cursive;
   color: #f2015f;
@@ -228,7 +173,9 @@
   color: #f2015f;
   text-align: justify;
   font-family: 'Hind', sans-serif;
-}/*seccion skills*/.container--title-skills {
+}
+
+.container--title-skills {
   margin-bottom: 50px;
 }
 
@@ -275,6 +222,63 @@
   font-family: 'Hind', sans-serif;
   display: block;
   text-align: center;
+}
+
+.contact--index {
+  font-size: 37px;
+  font-family: 'Megrim', cursive;
+  color: #f2015f;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  margin-top: 0;
+}
+
+.container--contact-icons {
+  width: 80%;
+  margin: auto;
+}
+
+.container--tlf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+.icon-contact {
+  color: #f2015f;
+}
+
+.contact-email {
+  font-family: 'Hind', sans-serif;
+  color: #f2015f;
+  text-align: center;
+}
+
+.container--links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 60px 0 10px;
+}
+
+.icon-network {
+  font-size: 30px;
+  color: #f2015f;
 }
 
 body {
