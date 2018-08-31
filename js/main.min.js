@@ -7,6 +7,7 @@ let sections = document.querySelectorAll('.section');
 let objSections = {};
 let titleSection2 = document.querySelector('.container--sect2');
 let titleSection3 = document.querySelector('.container--sect3');
+let titleSection4 = document.querySelector('.container--sect4');
 
 
 // function scrollSpy(e) {
@@ -66,7 +67,7 @@ function showDiv(e){
   let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
   console.log("showdiv", scrollPosition)
   
-    if(scrollPosition >= 500){
+    if(scrollPosition >= 400){
       titleSection2.classList.add('show')
     }else if(scrollPosition === 0){
       titleSection2.classList.remove('show')
@@ -76,6 +77,12 @@ function showDiv(e){
       titleSection3.classList.add('show')
     }else if(scrollPosition === 0){
       titleSection3.classList.remove('show')
+    }
+
+    if(scrollPosition >= 2400){
+      titleSection4.classList.add('show')
+    }else if(scrollPosition === 0){
+      titleSection4.classList.remove('show')
     }
   
 
