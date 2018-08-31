@@ -42,7 +42,7 @@ window.addEventListener('scroll', function (e) {
 
 
 function scrollSpy(e){
-  alert(window.innerHeight);
+
 
   e.preventDefault();
   let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
@@ -80,7 +80,7 @@ function showDiv(e){
       titleSection3.classList.remove('show')
     }
 
-    if(scrollPosition >= 2300){
+    if(scrollPosition >= 2100){
       titleSection4.classList.add('show')
     }else if(scrollPosition === 0){
       titleSection4.classList.remove('show')
