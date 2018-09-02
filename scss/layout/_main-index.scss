@@ -9,6 +9,13 @@
   height: 100vh;
 }
 
+.container--sect1{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
 .container--sect2{
   height: 100%;
 
@@ -20,10 +27,25 @@
 }
 
 .name--index{
-  font-family: 'Podkova', serif;
   color: $color1;
   position: absolute;
+  font-family: 'Megrim', cursive;
+  transition: all 0.6s ease-in-out;
+  font-size: 45px;
 }
+
+.job{
+  transition: all 0.8s ease-in-out;
+  font-family: 'Hind', sans-serif;
+  color: $color1;
+  transform: translate(-3%,323%);
+}
+.show{
+  opacity: 1;
+  transition: all linear 0.9s;
+}
+
+
 .section{
   background-color: black;
 }

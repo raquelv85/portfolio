@@ -5,9 +5,11 @@ let links = document.querySelectorAll('.link-section');
 let lis = document.querySelectorAll('.item');
 let sections = document.querySelectorAll('.section');
 let objSections = {};
+let titleSection1 = document.querySelector('.container--sect1');
 let titleSection2 = document.querySelector('.container--sect2');
 let titleSection3 = document.querySelector('.container--sect3');
 let titleSection4 = document.querySelector('.container--sect4');
+let nameIndex = document.querySelector('.name--index');
 
 
 
@@ -33,6 +35,9 @@ for (let i = 0; i < sections.length; i++) {
   console.log(objSections)
 }
 
+window.onload = function(){
+  titleSection1.classList.add('show');
+}
 
 window.addEventListener('scroll', function (e) {
 
@@ -64,11 +69,13 @@ function scrollSpy(e){
   }
 }
 
+
 function showDiv(e){
 
   let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
   console.log("showdiv", scrollPosition)
-  
+
+
     if(scrollPosition >= 400){
       titleSection2.classList.add('show')
     }else if(scrollPosition === 0){
