@@ -122,6 +122,8 @@
 }
 
 .container--sect1 {
+  -webkit-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,14 +149,10 @@
   color: #F2015F;
   position: absolute;
   font-family: 'Megrim', cursive;
-  -webkit-transition: all 0.6s ease-in-out;
-  transition: all 0.6s ease-in-out;
   font-size: 45px;
 }
 
 .job {
-  -webkit-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
   font-family: 'Hind', sans-serif;
   color: #F2015F;
   -webkit-transform: translate(-3%, 323%);

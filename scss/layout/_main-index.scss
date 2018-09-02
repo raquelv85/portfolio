@@ -10,6 +10,7 @@
 }
 
 .container--sect1{
+  transition: all 0.9s ease-in-out;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -30,12 +31,10 @@
   color: $color1;
   position: absolute;
   font-family: 'Megrim', cursive;
-  transition: all 0.6s ease-in-out;
   font-size: 45px;
 }
 
 .job{
-  transition: all 0.8s ease-in-out;
   font-family: 'Hind', sans-serif;
   color: $color1;
   transform: translate(-3%,323%);
