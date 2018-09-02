@@ -233,7 +233,7 @@
   z-index: 10;
   width: 12px;
   height: 12px;
-  margin: 12px 14px 0;
+  margin: 12px 14px 12px;
   border-radius: 50%;
   outline: 6px solid #F2015F;
   outline-offset: -6px;
@@ -315,6 +315,7 @@
   text-align: justify;
   font-family: 'Hind', sans-serif;
   font-size: 15px;
+  margin-bottom: 34px;
 }
 
 .container--sect3 {
