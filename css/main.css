@@ -110,6 +110,10 @@
   transition-delay: 0.3s;
 }
 
+.sect2,.sect3 {
+  border: 1px solid white;
+}
+
 .container--sect1,.container--sect2,.container--sect4 {
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
@@ -230,7 +234,6 @@
   height: 12px;
   margin: 12px 14px 0;
   border-radius: 50%;
-  z-index: 10;
   outline: 6px solid #F2015F;
   outline-offset: -6px;
   -webkit-box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
