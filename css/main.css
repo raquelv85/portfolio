@@ -117,6 +117,10 @@
   height: 100vh;
 }
 
+.container--sect2 {
+  height: 100%;
+}
+
 .container--sect3 {
   height: 100%;
   padding-top: 50px;
@@ -202,7 +206,7 @@
 }
 
 .slider {
-  height: 20%;
+  height: 80px;
   position: relative;
   overflow: hidden;
   display: -webkit-box;
