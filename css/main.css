@@ -209,6 +209,7 @@
   height: 80px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -227,7 +228,7 @@
 .slider--nav {
   width: 12px;
   height: 12px;
-  margin: 12px 12px;
+  margin: 12px 14px 0;
   border-radius: 50%;
   z-index: 10;
   outline: 6px solid #F2015F;
