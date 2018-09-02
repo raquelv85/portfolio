@@ -10,6 +10,7 @@ let titleSection3 = document.querySelector('.container--sect3');
 let titleSection4 = document.querySelector('.container--sect4');
 
 
+
 // function scrollSpy(e) {
 //   let item = e.currentTarget;
 
@@ -74,7 +75,7 @@ function showDiv(e){
       titleSection2.classList.remove('show')
     }
 
-    if(scrollPosition >= 1300){
+    if(scrollPosition >= 1100){
       titleSection3.classList.add('show')
     }else if(scrollPosition === 0){
       titleSection3.classList.remove('show')
