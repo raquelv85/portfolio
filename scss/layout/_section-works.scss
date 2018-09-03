@@ -1,16 +1,17 @@
-.container--sect3{
+.container--sect3 {
   opacity: 0;
 }
 
-.show{
+.show {
   opacity: 1;
   transition: all linear 0.8s;
 }
-.container--title-skills {
+
+.container--title-works {
   margin-bottom: 50px;
 }
 
-.skills--index {
+.works--index {
   font-size: 37px;
   font-family: 'Megrim', cursive;
   color: $color1;
@@ -20,18 +21,18 @@
   margin: 0;
 }
 
-.subtitle-skills {
+.subtitle-works {
   text-align: center;
 }
 
-.text--skills {
+.text--works {
   color: $color1;
   font-family: 'Hind', sans-serif;
   margin: 2px;
   text-transform: uppercase;
 }
 
-.container--links-skills {
+.container--links-works {
   margin: auto;
   width: 80%;
   border: 1px solid $color1;
@@ -41,12 +42,11 @@
   transition: all linear 0.5s;
 }
 
-.container--links-skills:hover{
+.container--links-works:hover {
   background-color: #3D0018;
-} 
+}
 
-
-.title--link-skills {
+.title--link-works {
   color: white;
   font-family: 'Hind', sans-serif;
   text-align: center;
@@ -54,10 +54,20 @@
   font-size: 13px;
 }
 
-.link--skills {
+.link--works {
   text-decoration: none;
   color: white;
   font-family: 'Hind', sans-serif;
   display: block;
   text-align: center;
+}
+
+
+@media all and (min-width: 1024px) {
+  .text--works{
+    font-size: 19px;
+  }
+  .title--link-works{
+    font-size: 15px;
+  }
 }

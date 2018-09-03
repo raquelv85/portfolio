@@ -56,3 +56,18 @@
   font-size: 30px;
   color: $color1;
 }
+
+
+@media all and (min-width: 1024px) {
+
+  .container--contact-icons {
+    width: 50%;
+  }
+
+}
+
+@media all and (min-width: 768px) {
+  .contact-email{
+    font-size: 21px;
+  }
+}
