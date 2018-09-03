@@ -54,7 +54,7 @@ function scrollSpy(e) {
   let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
 
   for (let i in objSections) {
-    if (objSections[i] <= scrollPosition) {
+    if (objSections[i] <= scrollPosition+1) {
       for (let j = 0; j < links.length; j++) {
 
         links[j].parentElement.classList.remove('item--check');
