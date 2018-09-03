@@ -2,7 +2,6 @@
 
 
 let links = document.querySelectorAll('.link-section');
-let lis = document.querySelectorAll('.item');
 let sections = document.querySelectorAll('.section');
 let objSections = {};
 let titleSection1 = document.querySelector('.container--sect1');
@@ -10,24 +9,6 @@ let titleSection2 = document.querySelector('.container--sect2');
 let titleSection3 = document.querySelector('.container--sect3');
 let titleSection4 = document.querySelector('.container--sect4');
 let nameIndex = document.querySelector('.name--index');
-
-
-
-// function scrollSpy(e) {
-//   let item = e.currentTarget;
-
-//   for (let i = 0; i < lis.length; i++) {
-//     lis[i].classList.remove('item--check');
-//   }
-//   item.parentElement.classList.add('item--check');
-// }
-
-
-// for (let i = 0; i < links.length; i++) {
-
-//   links[i].addEventListener('click', scrollSpy);
-// }
-
 
 
 for (let i = 0; i < sections.length; i++) {
@@ -49,12 +30,11 @@ window.addEventListener('scroll', function (e) {
 
 function scrollSpy(e) {
 
-
   e.preventDefault();
   let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
 
   for (let i in objSections) {
-    if (objSections[i] <= scrollPosition+1) {
+    if (objSections[i] <= scrollPosition + 1) {
       for (let j = 0; j < links.length; j++) {
 
         links[j].parentElement.classList.remove('item--check');

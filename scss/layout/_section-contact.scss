@@ -1,11 +1,8 @@
-
-
-
-.container--sect4{
+.container--sect4 {
   opacity: 0;
 }
 
-.show{
+.show {
   opacity: 1;
   transition: all linear 0.8s;
 }
@@ -57,17 +54,14 @@
   color: $color1;
 }
 
-
 @media all and (min-width: 1024px) {
-
   .container--contact-icons {
     width: 50%;
   }
-
 }
 
 @media all and (min-width: 768px) {
-  .contact-email{
+  .contact-email {
     font-size: 21px;
   }
 }

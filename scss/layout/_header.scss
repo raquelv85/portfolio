@@ -30,7 +30,6 @@
   width: 25%;
   text-align: center;
   position: relative;
-
 }
 
 .link-section {
@@ -47,15 +46,15 @@
   background-color: $color1;
 }
 
-.words{
+.words {
   display: block;
 }
-.icon-menu{
+
+.icon-menu {
   display: none;
 }
 
 /* Yaku */
-
 .link {
   outline: none;
   text-decoration: none;
@@ -108,47 +107,39 @@
   transition-delay: 0.3s;
 }
 
-
-
 @media all and (min-width: 1024px) {
-  .header{
+  .header {
     height: 58px;
   }
- .link-section{
-   font-size: 17px;
- }
-}
-
-@media all and (min-width: 768px) {
 
   .link-section {
     font-size: 17px;
   }
-
-
 }
 
+@media all and (min-width: 768px) {
+  .link-section {
+    font-size: 17px;
+  }
+}
 
 @media all and (max-width: 768px) {
+  .words {
+    display: none;
+  }
 
-.words {
-  display: none;
-
+  .icon-menu {
+    display: block;
+    margin-top: 44%;
+  }
 }
 
-.icon-menu {
-  display: block;
-  margin-top: 44%;
-}
+@media all and (max-width: 425px) {
+  .header {
+    height: 40px;
+  }
 
-}
-
-@media all and (max-width: 425px){
-
-    .header{
-      height: 40px;
-    }
-    .icon-menu{
-      font-size: 16px;
-    }
+  .icon-menu {
+    font-size: 16px;
+  }
 }
