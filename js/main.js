@@ -35,7 +35,7 @@ for (let i = 0; i < sections.length; i++) {
   console.log(objSections)
 }
 
-window.onload = function(){
+window.onload = function () {
   titleSection1.classList.add('show');
 }
 
@@ -47,12 +47,12 @@ window.addEventListener('scroll', function (e) {
 });
 
 
-function scrollSpy(e){
+function scrollSpy(e) {
 
 
   e.preventDefault();
   let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-  
+
   for (let i in objSections) {
     if (objSections[i] <= scrollPosition) {
       for (let j = 0; j < links.length; j++) {
@@ -70,29 +70,29 @@ function scrollSpy(e){
 }
 
 
-function showDiv(e){
+function showDiv(e) {
 
   let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
   console.log("showdiv", scrollPosition)
 
 
-    if(scrollPosition >= 400){
-      titleSection2.classList.add('show')
-    }else if(scrollPosition === 0){
-      titleSection2.classList.remove('show')
-    }
+  if (scrollPosition >= 400) {
+    titleSection2.classList.add('show')
+  } else if (scrollPosition === 0) {
+    titleSection2.classList.remove('show')
+  }
 
-    if(scrollPosition >= 1100){
-      titleSection3.classList.add('show')
-    }else if(scrollPosition === 0){
-      titleSection3.classList.remove('show')
-    }
+  if (scrollPosition >= 1100) {
+    titleSection3.classList.add('show')
+  } else if (scrollPosition === 0) {
+    titleSection3.classList.remove('show')
+  }
 
-    if(scrollPosition >= 2100){
-      titleSection4.classList.add('show')
-    }else if(scrollPosition === 0){
-      titleSection4.classList.remove('show')
-    }
-  
+  if (scrollPosition >= 2100) {
+    titleSection4.classList.add('show')
+  } else if (scrollPosition === 0) {
+    titleSection4.classList.remove('show')
+  }
+
 
 }

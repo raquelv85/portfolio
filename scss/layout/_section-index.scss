@@ -191,7 +191,7 @@
   }
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 1044px) {
   .container--img {
     width: 11%;
   }
@@ -201,6 +201,13 @@
   .container--img {
     width: 18%;
   }
+
+  .text--profile-skills{
+    font-size: 34px;
+  }
+   .text--profile-item {
+     font-size: 17px;
+   }
 
 }
 

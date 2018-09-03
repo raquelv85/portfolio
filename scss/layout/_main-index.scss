@@ -1,6 +1,10 @@
 .sect2, .sect3{
   border-bottom: 1px solid white;
 }
+
+.sect2{
+  height: 100vh;
+}
 .container--sect1,
 .container--sect2,
 .container--sect4{
