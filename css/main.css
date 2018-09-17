@@ -341,10 +341,10 @@
 
 .text--profile-item {
   color: #F2015F;
-  text-align: justify;
   font-family: 'Hind', sans-serif;
   font-size: 15px;
   margin-bottom: 34px;
+  text-align: center;
 }
 
 .container--sect3 {

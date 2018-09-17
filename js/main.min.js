@@ -8,17 +8,16 @@ let titleSection1 = document.querySelector('.container--sect1');
 let titleSection2 = document.querySelector('.container--sect2');
 let titleSection3 = document.querySelector('.container--sect3');
 let titleSection4 = document.querySelector('.container--sect4');
-let nameIndex = document.querySelector('.name--index');
+
 
 
 for (let i = 0; i < sections.length; i++) {
   objSections[sections[i].id] = sections[i].offsetTop;
-  console.log(objSections)
 }
 
 window.onload = function () {
   titleSection1.classList.add('show');
-}
+};
 
 window.addEventListener('scroll', function (e) {
 
@@ -50,28 +49,28 @@ function scrollSpy(e) {
 }
 
 
-function showDiv(e) {
+function showDiv() {
 
   let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-  console.log("showdiv", scrollPosition)
+ 
 
 
   if (scrollPosition >= 400) {
-    titleSection2.classList.add('show')
+    titleSection2.classList.add('show');
   } else if (scrollPosition === 0) {
-    titleSection2.classList.remove('show')
+    titleSection2.classList.remove('show');
   }
 
   if (scrollPosition >= 1100) {
-    titleSection3.classList.add('show')
+    titleSection3.classList.add('show');
   } else if (scrollPosition === 0) {
-    titleSection3.classList.remove('show')
+    titleSection3.classList.remove('show');
   }
 
   if (scrollPosition >= 2100) {
-    titleSection4.classList.add('show')
+    titleSection4.classList.add('show');
   } else if (scrollPosition === 0) {
-    titleSection4.classList.remove('show')
+    titleSection4.classList.remove('show');
   }
 
 
